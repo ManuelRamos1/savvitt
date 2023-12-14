@@ -1,26 +1,125 @@
 <script>
     import Navbar from "../../Navbar.svelte";
+    import synologyBanner from '../../images/synologybanner.png';
 
+    import savvittp from '../../images/savvittp.png';
+
+    import s1 from '../../images/s1.png';
+    import s2 from '../../images/s2.png';
+    import s3 from '../../images/s3.png';
+    import s4 from '../../images/s4.png';
 </script>
-<Navbar/>
-<style>
-    body {
-        margin: 0; /* Elimina márgenes del cuerpo */
-        padding: 0; /* Elimina relleno del cuerpo */
-    }
-    
-    .navbar {
-        margin-bottom: 0 !important; /* Elimina el margen inferior del navbar */
-    }
 
-    .relative {
-        margin: 0; /* Elimina márgenes del bloque principal */
-        padding: 0; /* Elimina relleno del bloque principal */
-    }
-</style>
+<Navbar/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="overflow-hidden bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div class="lg:pr-8 lg:pt-4">
+          <div class="lg:max-w-lg">
+            <!-- <h2 class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2> -->
+            <p style="color: #6800EF;" class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Protege tus datos criticos</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600"> Tu aliado confiable en soluciones integrales de respaldo. Nos especializamos en ofrecer servicios y hardware de vanguardia para garantizar la seguridad y disponibilidad de tus datos más críticos.</p>
+            <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
+                  </svg>
+                 <b style="color: #6800EF;">Respaldo Automatizado:</b> 
+                </dt>
+                <dd class="inline">Implementamos soluciones avanzadas que automatizan el proceso de respaldo, asegurando que tus datos estén protegidos de manera constante y sin intervención manual.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+                  </svg>
+                  <b style="color:lightslategray"> Recuperación Rápida:</b> 
+            
+                </dt>
+                <dd class="inline">En caso de pérdida de datos, garantizamos una recuperación rápida y eficiente para minimizar el tiempo de inactividad y proteger tu continuidad operativa.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <svg class="absolute left-1 top-1 h-5 w-5 text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
+                    <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
+                  </svg>
+
+                  <b style="color: #6800EF;">Hardware Confiable:</b> 
+           
+                </dt>
+                <dd class="inline">Trabajamos con los principales fabricantes de hardware para ofrecer productos de calidad y confianza que cumplen con los estándares más exigentes de la industria.</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+        <img src={savvittp} alt="Product screenshot" class="" width="2432" height="1442">
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img alt="The project logo" src={synologyBanner} />
 
 <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+    <img src="synologybanner.png" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
     <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
       <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
@@ -31,7 +130,7 @@
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Etas protegido contra Ramsomeware?</h2>
         <p class="mt-6 text-lg leading-8 text-gray-300">
-            "Optimiza la seguridad de tu empresa con nuestra especialización en implementación de sistemas Synology. Confía en nosotros para respaldos eficientes y la protección de tus datos críticos."</p>
+            "Optimiza la seguridad de tu empresa con nuestra especialización en implementación de sistemas Synology. Confía en nosotros para respaldos eficientes y la protección de tus datos críticos....."</p>
       </div>
       <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
      
@@ -94,10 +193,10 @@
         </dl>
       </div>
       <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-        <img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-01.jpg" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100">
-        <img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-02.jpg" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100">
-        <img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-03.jpg" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100">
-        <img src="https://tailwindui.com/img/ecommerce-images/product-feature-03-detail-04.jpg" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100">
+        <img src={s1}  alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100">
+        <img src={s2}  alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100">
+        <img src={s3}  alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100">
+        <img src={s4} alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100">
       </div>
     </div>
   </div>
