@@ -4,6 +4,4 @@
 
 </script>
 <Navbar/>
-
 <Footer/>
-
