@@ -3,7 +3,7 @@
         <div class="sm:flex sm:items-center sm:justify-between">
             <a href="#top" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <img src="/savvitt.png" alt="Descripción de la imagen" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>n
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
