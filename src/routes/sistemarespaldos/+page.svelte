@@ -74,7 +74,7 @@
         <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">+ 400,000</dd>
       </div>
       <div class="mx-auto flex max-w-xs flex-col gap-y-4">
-        <dt class="text-base leading-7 text-gray-600">Empresas que sufrieron un ataque y pagaron el rescate en 2023 </dt>
+        <dt class="text-base leading-7 text-gray-600">Empresas que sufrieron un ataque y pagaron el rescate en 2023. </dt>
         <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">+ 41% </dd>
       </div>
       <div class="mx-auto flex max-w-xs flex-col gap-y-4">
